@@ -1,0 +1,30 @@
+{
+  "id": "1419425",
+  "name": "bootstarp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "331557",
+      "name": "好友",
+      "font_class": "haoyou",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "7043248",
+      "name": "主页",
+      "font_class": "zhuye",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "8084228",
+      "name": "收藏夹 (1)",
+      "font_class": "shoucangjia",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    }
+  ]
+}

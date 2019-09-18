@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>作业</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="font_1419425_spjowedaga/iconfont.css">
+    <style>
+        a,
+        p.text-center {
+            color: #909090;
+        }
+
+        .header {
+            background: url(img/banner.png);
+            background-size: cover;
+        }
+
+        .nav-link.active {
+            color: #F98080 !important;
+        }
+
+        .nav-list.active {
+            border-bottom: 0.1rem solid #F98080 !important;
+        }
+
+        .tab-content>.active {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .nav-pills .nav-link.active {
+            color: #ffffff !important;
+            background-color: #909090 !important;
+        }
+
+        .fa {
+            width: 8rem;
+            border: none;
+            height: 3rem;
+            margin-top: 0.5rem;
+            text-align: center;
+            background-color: blue;
+            color: #ffffff;
+        }
+
+        .tox-tinymce {
+            width: 100%;
+        }
+    </style>
+</head>
+<script src="js/tinymceEditor/tinymce.min.js"></script>
+<script>tinymce.init({ selector: 'textarea' });</script>
+
+<body>
+    <div class="container-fluid header">
+        <div class="container">
+            <div class="row align-items py-5">
+                <div class="col-lg-2 col-sm-4">
+                    <img src="img/s1.jpg" alt="" class="rounded-circle w-100">
+                </div>
+                <div class="col text-white">
+                    <p class="h2 py-3">怒切萝卜</p>
+                    <p>身份类别：学员</p>
+                    <p>个性签名:11111111111111</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-3">
+        <div class="container">
+            <ul class="nav nav-list">
+                <li class="nav-item">
+                    <a class="nav-link active iconfont icon-zhuye" href="#">我的主页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link iconfont icon-haoyou" href="#">好友动态</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link iconfont icon-shoucangjia" href="#">收藏夹</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-lg-8 col-sm-12 father">
+                <div class="container border-bottom border-secondary bg-white">
+                    <ul class="nav nav-tabs border-0 ">
+                        <li class="nav-item border-0 ">
+                            <a class="nav-link nav-list px-5 border-0 py-3 active" data-toggle="tab" href="#home">课程</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-list  px-5 border-0 py-3" data-toggle="tab" href="#profile">问答</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-list px-5 border-0 py-3 border-bottom" data-toggle="tab"
+                                href="#contact">动态</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- tab切换的面板 -->
+                <div class="container bg-white py-3">
+                    <div class="tab-content w-100" id="myTabContent">
+                        <!-- 课程 -->
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="card col-lg-4 col-sm-12 p-0 mt-3">
+                                <div class="card-body p-1 pb-3">
+                                    <img src="img/20161104205906937.jpg" alt="" class="w-100">
+                                    <p class="m-0">HTML框架与布局</p>
+                                    <a href="#" class="card-link">132人在学</a>
+                                    <a href="#" class="card-link text-danger float-right">$128.00</a>
+                                </div>
+                            </div>
+                            <div class="card col-lg-4 col-sm-12 p-0 mt-3">
+                                <div class="card-body p-1 pb-3">
+                                    <img src="img/20161104205906937.jpg" alt="" class="w-100">
+                                    <p class="m-0">Android文件操作</p>
+                                    <a href="#" class="card-link">132人在学</a>
+                                    <a href="#" class="card-link text-danger float-right">$128.00</a>
+                                </div>
+                            </div>
+                            <div class="card col-lg-4 col-sm-12 p-0 mt-3">
+                                <div class="card-body p-1 pb-3">
+                                    <img src="img/20161104205906937.jpg" alt="" class="w-100">
+                                    <p class="m-0">Android文件操作</p>
+                                    <a href="#" class="card-link">132人在学</a>
+                                    <a href="#" class="card-link text-danger float-right">$128.00</a>
+                                </div>
+                            </div>
+                            <div class="card col-lg-4 col-sm-12 p-0 mt-3">
+                                <div class="card-body p-1 pb-3">
+                                    <img src="img/20161104205906937.jpg" alt="" class="w-100">
+                                    <p class="m-0">Android文件操作</p>
+                                    <a href="#" class="card-link">132人在学</a>
+                                    <a href="#" class="card-link text-danger float-right">$128.00</a>
+                                </div>
+                            </div>
+                            <div class="card col-lg-4 col-sm-12 p-0 mt-3">
+                                <div class="card-body p-1 pb-3">
+                                    <img src="img/20161104205906937.jpg" alt="" class="w-100">
+                                    <p class="m-0">Android文件操作</p>
+                                    <a href="#" class="card-link">132人在学</a>
+                                    <a href="#" class="card-link text-danger float-right">$128.00</a>
+                                </div>
+                            </div>
+                            <div class="card col-lg-4 col-sm-12 p-0 mt-3">
+                                <div class="card-body p-1 pb-3">
+                                    <img src="img/20161104205906937.jpg" alt="" class="w-100">
+                                    <p class="m-0">HTML框架与布局</p>
+                                    <a href="#" class="card-link">132人在学</a>
+                                    <a href="#" class="card-link text-danger float-right">$128.00</a>
+                                </div>
+                            </div>
+                            <div class="card col-lg-4 col-sm-12 p-0 mt-3">
+                                <div class="card-body p-1 pb-3">
+                                    <img src="img/20161104205906937.jpg" alt="" class="w-100">
+                                    <p class="m-0">Android文件操作</p>
+                                    <a href="#" class="card-link">132人在学</a>
+                                    <a href="#" class="card-link text-danger float-right">$128.00</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <!-- 问题回答切换 -->
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item ml-3">
+                                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                                        role="tab" aria-controls="pills-home" aria-selected="true">我的提问</a>
+                                </li>
+                                <li class="nav-item ml-3">
+                                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                                        role="tab" aria-controls="pills-profile" aria-selected="false">我的回答</a>
+                                </li>
+                            </ul>
+                            <!-- 切换页面 -->
+                            <div class="tab-content col-12" id="pills-tabContent">
+                                <div class="tab-pane fade show py-3 active" id="pills-home" role="tabpanel"
+                                    aria-labelledby="pills-home-tab">
+                                    <div class="border-bottom border-gray col-12 py-3 clearfix">
+                                        <p>讨论学生的第一个问题</p>
+                                        <span class="float-left text-black-50">2016-12-01</span>
+                                        <span class="float-right text-black-50">4回复</span>
+                                    </div>
+                                    <div class="border-bottom border-gray col-12 py-3 clearfix">
+                                        <p>讨论学生的第二个问题</p>
+                                        <span class="float-left text-black-50">2016-12-01</span>
+                                        <span class="float-right text-black-50">4回复</span>
+                                    </div>
+                                    <div class="border-bottom border-gray col-12 py-3 clearfix">
+                                        <p>讨论学生的第二个问题</p>
+                                        <span class="float-left text-black-50">2016-12-01</span>
+                                        <span class="float-right text-black-50">4回复</span>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade py-3" id="pills-profile" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab">
+                                    <div class="border-bottom border-gray col-12 py-3 ">
+                                        <p>关于学生的第一个回答</p>
+                                        <span class="float-left text-black-50">2016-12-01</span>
+                                        <span class="float-right text-black-50">4回复</span>
+                                    </div>
+                                    <div class="border-bottom border-gray col-12 py-3 ">
+                                        <p>关于学生的第二个问题</p>
+                                        <span class="float-left text-black-50">2016-12-01</span>
+                                        <span class="float-right text-black-50">4回复</span>
+                                    </div>
+                                    <div class="border-bottom border-gray col-12 py-3 ">
+                                        <p>关于学生的第二个问题</p>
+                                        <span class="float-left text-black-50">2016-12-01</span>
+                                        <span class="float-right text-black-50">4回复</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 动态 -->
+                        <div class="tab-pane fade show clearfix" id="contact" role="tabpanel"
+                            aria-labelledby="contact-tab">
+                            <textarea class="col-12 w-100" rows="5"></textarea>
+                            <div class="col-12">   
+                                    <button class="fa float-right">发表</button>
+                            </div>
+                            
+                            <div class="border-bottom border-gray col-12 py-3 ">
+                                <p>讨论区学生学生提问第二个回答</p>
+                                <span class="float-left text-black-50 ">2016-12-01</span>
+                                <span class="float-right text-black-50 mr-3">评论10</span>
+                                <span class="float-right text-black-50 mr-3">转发6</span>
+                                <span class="float-right text-black-50 mr-3">收藏3</span>
+                                <span class="float-right text-black-50 mr-3">赞4</span>
+                            </div>
+                            <div class="border-bottom border-gray col-12 py-3 ">
+                                    <p>讨论区学生学生提问第二个回答</p>
+                                    <span class="float-left text-black-50 ">2016-12-01</span>
+                                    <span class="float-right text-black-50 mr-3">评论5</span>
+                                    <span class="float-right text-black-50 mr-3">转发1</span>
+                                    <span class="float-right text-black-50 mr-3">收藏8</span>
+                                    <span class="float-right text-black-50 mr-3">赞10</span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-4 col-sm-12 mt-sm-3">
+                <!-- 关注粉丝 -->
+                <div class="container bg-white border ">
+                    <div class="row py-2">
+                        <div class="col-6 text-center border-right ">
+                            <p class="m-0">16</p>
+                            <p class="m-0">关注</p>
+                        </div>
+                        <div class="col-6 text-center">
+                            <p class="m-0">16</p>
+                            <p class="m-0">粉丝</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 最近访客 -->
+                <div class="container bg-white mt-3">
+                    <div class="row">
+                        <div class="p-3 border-bottom border-secondary mb-3 col-12">
+                            <a href="#">最近访客</a>
+                            <a href="#" class="float-right">更多&gt;</a>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/s1.jpg" alt="" class="rounded-circle w-100">
+                            <p class="text-center">怒切萝卜</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/s1.jpg" alt="" class="rounded-circle w-100">
+                            <p class="text-center">怒切萝卜</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/s1.jpg" alt="" class="rounded-circle w-100">
+                            <p class="text-center">怒切萝卜</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/s1.jpg" alt="" class="rounded-circle w-100">
+                            <p class="text-center">怒切萝卜</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/s1.jpg" alt="" class="rounded-circle w-100">
+                            <p class="text-center">怒切萝卜</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/s1.jpg" alt="" class="rounded-circle w-100">
+                            <p class="text-center">怒切萝卜</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 感兴趣的人 -->
+                <div class="container bg-white mt-3">
+                    <div class="row">
+                        <div class="p-3 border-bottom border-secondary mb-3 col-12">
+                            <a href="#">感兴趣的人</a>
+                            <a href="#" class="float-right">更多&gt;</a>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/s1.jpg" alt="" class="rounded-circle w-100">
+                            <p class="text-center">怒切萝卜</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/s1.jpg" alt="" class="rounded-circle w-100">
+                            <p class="text-center">怒切萝卜</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/s1.jpg" alt="" class="rounded-circle w-100">
+                            <p class="text-center">怒切萝卜</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/s1.jpg" alt="" class="rounded-circle w-100">
+                            <p class="text-center">怒切萝卜</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/s1.jpg" alt="" class="rounded-circle w-100">
+                            <p class="text-center">怒切萝卜</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/s1.jpg" alt="" class="rounded-circle w-100">
+                            <p class="text-center">怒切萝卜</p>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $(".nav-list>li").click(function () {
+                $(this).siblings().find("a").removeClass("active");
+                $(this).find("a").addClass("active");
+            })
+        })
+    </script>
+</body>
+
+</html>
